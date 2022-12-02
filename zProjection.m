@@ -6,6 +6,8 @@
 %
 % OUTPUT     im_zproj: an image_height x image_width x T matrix
 %                       which contains the Z projection at every time
+%NL
+
 function im_zproj=zProjection(im,type_proj)
     for i=1:size(im,2)
         switch type_proj
